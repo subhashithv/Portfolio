@@ -2,6 +2,8 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import Section from '../ui/Section';
 import { Brain, Lightbulb, Users } from 'lucide-react';
+import profileImage from '../../assets/ash.png'; // adjust the path as needed
+
 
 const About: React.FC = () => {
   const iconVariants = {
@@ -88,7 +90,7 @@ const About: React.FC = () => {
             {/* Profile image with futuristic overlay effects */}
             <div className="absolute inset-0 bg-gradient-to-tr from-purple-500/20 to-blue-500/20 z-10"></div>
             <img 
-              src="https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg" 
+              src={profileImage} 
               alt="Ash - ML Engineer" 
               className="w-full h-full object-cover"
             />

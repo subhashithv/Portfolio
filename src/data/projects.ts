@@ -15,7 +15,7 @@ export const projects: Project[] = [
     description: "Fine-tuned NLP models to automate resume screening with 92% accuracy, cutting HR workload by 60%.",
     technologies: ["BERT", "ChatGPT", "Python", "FastAPI"],
     image: "https://images.pexels.com/photos/8728556/pexels-photo-8728556.jpeg",
-    link: "#"
+    link: "https://github.com/subhashithv/LLM-Career-Guide"
   },
   {
     id: 3,
