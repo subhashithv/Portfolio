@@ -34,7 +34,7 @@ const About: React.FC = () => {
           <h3 className="text-2xl font-bold mb-4 text-white">ML Engineer & Educator with a passion for AI</h3>
           
           <p className="mb-4">
-            With over 5 years of experience in machine learning and artificial intelligence, 
+            With over 2 years of experience in machine learning and artificial intelligence, 
             I specialize in developing cutting-edge solutions that merge theoretical research with 
             practical applications. My expertise spans computer vision, natural language processing, 
             and reinforcement learning.
