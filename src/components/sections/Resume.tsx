@@ -10,7 +10,7 @@ const Resume: React.FC = () => {
       {/* Download CV Button */}
       <div className="flex justify-center mb-10">
         <a
-          href="/subhash_resume(1).pdf"
+          href="/resume.pdf"
           download
           className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded flex items-center shadow transition"
         >
