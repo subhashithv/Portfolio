@@ -5,6 +5,7 @@ import Card from '../ui/Card';
 import { blogPosts } from '../../data/blogPosts';
 import { ArrowRight } from 'lucide-react';
 
+
 const Blog: React.FC = () => {
   return (
     <Section id="blog" title="Latest Articles">
