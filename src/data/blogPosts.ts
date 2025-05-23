@@ -1,5 +1,5 @@
 import { BlogPost } from '../types';
-import articleImage from '../../assets/Article1.png';
+import articleImage from '../assets/Article1.png';
 export const blogPosts: BlogPost[] = [
   {
     id: 1,
