@@ -11,7 +11,7 @@ export const projects: Project[] = [
     description: "Built a modular API architecture combining ChatGPT, Claude, and Mistral, optimizing task performance and reducing latency by 25%.",
     technologies: ["Python", "LangChain", "GPT-3.5", "Claude"],
     image: img1,
-    link: "https://github.com/subhashithv/fusionai"
+    link: "https://fusion-ai.netlify.app"
   },
   {
     id: 2,
