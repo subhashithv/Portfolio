@@ -34,10 +34,7 @@ const About: React.FC = () => {
           <h3 className="text-2xl font-bold mb-4 text-white">ML Engineer & Educator with a passion for AI</h3>
           
           <p className="mb-4">
-            With over 2 years of experience in machine learning and artificial intelligence, 
-            I specialize in developing cutting-edge solutions that merge theoretical research with 
-            practical applications. My expertise spans computer vision, natural language processing, 
-            and reinforcement learning.
+            I’m Subhashith V, a Machine Learning Engineer and AI Educator passionate about building impactful AI solutions and simplifying complex technologies. I’ve developed multi-LLM systems, NLP tools, and AI-driven educational platforms, while also training 5,000+ students in machine learning and generative AI. I enjoy working at the intersection of tech, learning, and innovation.
           </p>
           
           <p className="mb-6">
