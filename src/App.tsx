@@ -10,12 +10,25 @@ import Resume from './components/sections/Resume';
 import Blog from './components/sections/Blog';
 import Contact from './components/sections/Contact';
 import EasterEggs from './components/easter-eggs/EasterEggs';
+import AdminDashboard from './components/admin/AdminDashboard';
 
 function App() {
+  const [isAdmin, setIsAdmin] = useState(false);
+
+  // Simple admin check - replace with actual auth logic
+  useEffect(() => {
+    const adminMode = new URLSearchParams(window.location.search).get('admin') === 'true';
+    setIsAdmin(adminMode);
+  }, []);
+
   // Update page title
   useEffect(() => {
     document.title = "Ash | ML Engineer & Educator";
   }, []);
+
+  if (isAdmin) {
+    return <AdminDashboard />;
+  }
 
   return (
     <ThemeProvider>

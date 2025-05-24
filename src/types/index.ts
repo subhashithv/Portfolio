@@ -31,3 +31,17 @@ export interface TimelineItem {
   company?: string;
   location?: string;
 }
+
+export interface AnalyticsData {
+  visitors: number;
+  pageViews: number;
+  avgTimeOnSite: string;
+  topPages: Array<{ page: string; views: number }>;
+}
+
+export interface AdminStats {
+  totalVisitors: number;
+  activeUsers: number;
+  bounceRate: string;
+  avgSessionDuration: string;
+}
